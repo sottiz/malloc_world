@@ -978,7 +978,7 @@ int fighting(game *myGame, int idMonster)
     }
     if(strcmp(input, "e")==0)
     {
-        esc = escape(myGame, myGame->monsters[idMonster]);
+        esc = escape();
         return esc;
     }
     fighting(myGame, idMonster);
